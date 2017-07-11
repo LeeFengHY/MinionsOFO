@@ -58,6 +58,30 @@
             CGFloat r = self.width /2 - self.eyeImageView.width /2;
             CGPoint center = CGPointMake(self.width /2, self.height/2);
             CGPoint currentPoint = self.eyeImageView.center;
+            
+            CGFloat x = 0;
+            CGFloat y = 0;
+            //斜边
+            CGFloat c = sqrt(pow(center.x - currentPoint.x, 2) + pow(currentPoint.y - center.y, 2));
+            if (c > r) {
+                //邻边
+                CGFloat b = fabs(r * (center.x - currentPoint.x) / c);
+                //对边
+                CGFloat a = fabs(r * (currentPoint.y - center.y) / c);
+                if (currentPoint.x > center.x) {
+                    x = center.x + b;
+                }else {
+                    x = center.x - b;
+                }
+                if (currentPoint.y > center.y) {
+                    y = center.y + a;
+                }else {
+                    y = center.y - a;
+                }
+                self.eyeImageView.center = CGPointMake(x, y);
+            }
+           
+#if 0
             //如果眼睛不要被这遮挡，需要以眼睛的center到self.center为半径画一个圆限制活动范围
             UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(self.eyeImageView.width /2, self.eyeImageView.height /2, self.width - self.eyeImageView.width, self.height - self.eyeImageView.height)];
             if (CGPathContainsPoint(path.CGPath, NULL, self.eyeImageView.center, NO)) {
@@ -83,6 +107,7 @@
                 }
                 self.eyeImageView.center = CGPointMake(x, y);
             }
+#endif
         }];
     }
 }
