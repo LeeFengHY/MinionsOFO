@@ -43,8 +43,6 @@
 {
     if (!_glassView) {
         _glassView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"minions_grass_190x190_"]];
-//        _glassView.layer.borderColor = [UIColor grayColor].CGColor;
-//        _glassView.layer.borderWidth = 1.0;
     }
     return _glassView;
 }
@@ -52,8 +50,6 @@
 {
     if (!_leftEyeView) {
         _leftEyeView = [[MinionsEyesView alloc] initWithFrame:CGRectZero];
-//        _leftEyeView.layer.borderColor = [UIColor redColor].CGColor;
-//        _leftEyeView.layer.borderWidth = 1.0;
     }
     return _leftEyeView;
 }
