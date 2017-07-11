@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "OFOMinionesView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    OFOMinionesView *minionsView = [[OFOMinionesView alloc] initWithFrame:CGRectMake(0, 0, 190, 190)];
+    minionsView.center = self.view.center;
+    [self.view addSubview:minionsView];
+    
 }
 
 

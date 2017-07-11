@@ -13,6 +13,20 @@
 		EE6721521F132477001DFF0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6721501F132477001DFF0D /* Main.storyboard */; };
 		EE6721541F132477001DFF0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6721531F132477001DFF0D /* Assets.xcassets */; };
 		EE6721571F132477001DFF0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6721551F132477001DFF0D /* LaunchScreen.storyboard */; };
+		EE67216A1F1324BB001DFF0D /* minions_background_190x190_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67215F1F1324BB001DFF0D /* minions_background_190x190_@1x.png */; };
+		EE67216B1F1324BB001DFF0D /* minions_background_190x190_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6721601F1324BB001DFF0D /* minions_background_190x190_@2x.png */; };
+		EE67216C1F1324BB001DFF0D /* minions_background_190x190_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6721611F1324BB001DFF0D /* minions_background_190x190_@3x.png */; };
+		EE67216D1F1324BB001DFF0D /* minions_eyes_18x19_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6721621F1324BB001DFF0D /* minions_eyes_18x19_@2x.png */; };
+		EE67216E1F1324BB001DFF0D /* minions_eyes_18x19_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6721631F1324BB001DFF0D /* minions_eyes_18x19_@3x.png */; };
+		EE67216F1F1324BB001DFF0D /* minions_eyes_double_73x19_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6721641F1324BB001DFF0D /* minions_eyes_double_73x19_@2x.png */; };
+		EE6721701F1324BB001DFF0D /* minions_eyes_double_73x19_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6721651F1324BB001DFF0D /* minions_eyes_double_73x19_@3x.png */; };
+		EE6721711F1324BB001DFF0D /* minions_eyes_double_73x20_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6721661F1324BB001DFF0D /* minions_eyes_double_73x20_@1x.png */; };
+		EE6721721F1324BB001DFF0D /* minions_grass_190x190_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6721671F1324BB001DFF0D /* minions_grass_190x190_@1x.png */; };
+		EE6721731F1324BB001DFF0D /* minions_grass_190x190_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6721681F1324BB001DFF0D /* minions_grass_190x190_@2x.png */; };
+		EE6721741F1324BB001DFF0D /* minions_grass_190x190_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6721691F1324BB001DFF0D /* minions_grass_190x190_@3x.png */; };
+		EE6721781F1328D9001DFF0D /* OFOMinionesView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6721771F1328D9001DFF0D /* OFOMinionesView.m */; };
+		EE67217B1F132910001DFF0D /* MinionsEyesView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE67217A1F132910001DFF0D /* MinionsEyesView.m */; };
+		EE67217E1F132F88001DFF0D /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EE67217D1F132F88001DFF0D /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +40,23 @@
 		EE6721531F132477001DFF0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE6721561F132477001DFF0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE6721581F132477001DFF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE67215F1F1324BB001DFF0D /* minions_background_190x190_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minions_background_190x190_@1x.png"; sourceTree = "<group>"; };
+		EE6721601F1324BB001DFF0D /* minions_background_190x190_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minions_background_190x190_@2x.png"; sourceTree = "<group>"; };
+		EE6721611F1324BB001DFF0D /* minions_background_190x190_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minions_background_190x190_@3x.png"; sourceTree = "<group>"; };
+		EE6721621F1324BB001DFF0D /* minions_eyes_18x19_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minions_eyes_18x19_@2x.png"; sourceTree = "<group>"; };
+		EE6721631F1324BB001DFF0D /* minions_eyes_18x19_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minions_eyes_18x19_@3x.png"; sourceTree = "<group>"; };
+		EE6721641F1324BB001DFF0D /* minions_eyes_double_73x19_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minions_eyes_double_73x19_@2x.png"; sourceTree = "<group>"; };
+		EE6721651F1324BB001DFF0D /* minions_eyes_double_73x19_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minions_eyes_double_73x19_@3x.png"; sourceTree = "<group>"; };
+		EE6721661F1324BB001DFF0D /* minions_eyes_double_73x20_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minions_eyes_double_73x20_@1x.png"; sourceTree = "<group>"; };
+		EE6721671F1324BB001DFF0D /* minions_grass_190x190_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minions_grass_190x190_@1x.png"; sourceTree = "<group>"; };
+		EE6721681F1324BB001DFF0D /* minions_grass_190x190_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minions_grass_190x190_@2x.png"; sourceTree = "<group>"; };
+		EE6721691F1324BB001DFF0D /* minions_grass_190x190_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minions_grass_190x190_@3x.png"; sourceTree = "<group>"; };
+		EE6721761F1328D9001DFF0D /* OFOMinionesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFOMinionesView.h; sourceTree = "<group>"; };
+		EE6721771F1328D9001DFF0D /* OFOMinionesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFOMinionesView.m; sourceTree = "<group>"; };
+		EE6721791F132910001DFF0D /* MinionsEyesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinionsEyesView.h; sourceTree = "<group>"; };
+		EE67217A1F132910001DFF0D /* MinionsEyesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinionsEyesView.m; sourceTree = "<group>"; };
+		EE67217C1F132F88001DFF0D /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		EE67217D1F132F88001DFF0D /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +89,8 @@
 		EE6721461F132477001DFF0D /* MinionsOFO */ = {
 			isa = PBXGroup;
 			children = (
+				EE6721751F1324EF001DFF0D /* Minions */,
+				EE67215E1F1324A1001DFF0D /* Resource */,
 				EE67214A1F132477001DFF0D /* AppDelegate.h */,
 				EE67214B1F132477001DFF0D /* AppDelegate.m */,
 				EE67214D1F132477001DFF0D /* ViewController.h */,
@@ -77,6 +110,37 @@
 				EE6721481F132477001DFF0D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE67215E1F1324A1001DFF0D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EE67215F1F1324BB001DFF0D /* minions_background_190x190_@1x.png */,
+				EE6721601F1324BB001DFF0D /* minions_background_190x190_@2x.png */,
+				EE6721611F1324BB001DFF0D /* minions_background_190x190_@3x.png */,
+				EE6721621F1324BB001DFF0D /* minions_eyes_18x19_@2x.png */,
+				EE6721631F1324BB001DFF0D /* minions_eyes_18x19_@3x.png */,
+				EE6721641F1324BB001DFF0D /* minions_eyes_double_73x19_@2x.png */,
+				EE6721651F1324BB001DFF0D /* minions_eyes_double_73x19_@3x.png */,
+				EE6721661F1324BB001DFF0D /* minions_eyes_double_73x20_@1x.png */,
+				EE6721671F1324BB001DFF0D /* minions_grass_190x190_@1x.png */,
+				EE6721681F1324BB001DFF0D /* minions_grass_190x190_@2x.png */,
+				EE6721691F1324BB001DFF0D /* minions_grass_190x190_@3x.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		EE6721751F1324EF001DFF0D /* Minions */ = {
+			isa = PBXGroup;
+			children = (
+				EE6721761F1328D9001DFF0D /* OFOMinionesView.h */,
+				EE6721771F1328D9001DFF0D /* OFOMinionesView.m */,
+				EE6721791F132910001DFF0D /* MinionsEyesView.h */,
+				EE67217A1F132910001DFF0D /* MinionsEyesView.m */,
+				EE67217C1F132F88001DFF0D /* UIView+Extension.h */,
+				EE67217D1F132F88001DFF0D /* UIView+Extension.m */,
+			);
+			name = Minions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +174,7 @@
 				TargetAttributes = {
 					EE6721431F132477001DFF0D = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PDFNCJM5PL;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,9 +202,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE67216A1F1324BB001DFF0D /* minions_background_190x190_@1x.png in Resources */,
+				EE6721701F1324BB001DFF0D /* minions_eyes_double_73x19_@3x.png in Resources */,
+				EE67216D1F1324BB001DFF0D /* minions_eyes_18x19_@2x.png in Resources */,
 				EE6721571F132477001DFF0D /* LaunchScreen.storyboard in Resources */,
+				EE67216E1F1324BB001DFF0D /* minions_eyes_18x19_@3x.png in Resources */,
+				EE6721741F1324BB001DFF0D /* minions_grass_190x190_@3x.png in Resources */,
+				EE6721731F1324BB001DFF0D /* minions_grass_190x190_@2x.png in Resources */,
 				EE6721541F132477001DFF0D /* Assets.xcassets in Resources */,
+				EE67216B1F1324BB001DFF0D /* minions_background_190x190_@2x.png in Resources */,
+				EE67216F1F1324BB001DFF0D /* minions_eyes_double_73x19_@2x.png in Resources */,
+				EE67216C1F1324BB001DFF0D /* minions_background_190x190_@3x.png in Resources */,
 				EE6721521F132477001DFF0D /* Main.storyboard in Resources */,
+				EE6721711F1324BB001DFF0D /* minions_eyes_double_73x20_@1x.png in Resources */,
+				EE6721721F1324BB001DFF0D /* minions_grass_190x190_@1x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,9 +226,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE67217E1F132F88001DFF0D /* UIView+Extension.m in Sources */,
 				EE67214F1F132477001DFF0D /* ViewController.m in Sources */,
+				EE6721781F1328D9001DFF0D /* OFOMinionesView.m in Sources */,
 				EE67214C1F132477001DFF0D /* AppDelegate.m in Sources */,
 				EE6721491F132477001DFF0D /* main.m in Sources */,
+				EE67217B1F132910001DFF0D /* MinionsEyesView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +351,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PDFNCJM5PL;
 				INFOPLIST_FILE = MinionsOFO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.qfang.XinFangTongHK.MinionsOFO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qfang.XinFangTongHK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -283,9 +363,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PDFNCJM5PL;
 				INFOPLIST_FILE = MinionsOFO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.qfang.XinFangTongHK.MinionsOFO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qfang.XinFangTongHK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
